@@ -23,7 +23,10 @@
                         <th scope="col">{{ __('dashboard/pages/users/show_admins.name') }}</th>
                         <th scope="col">{{ __('dashboard/pages/users/show_admins.email') }}</th>
                         <th scope="col">{{ __('dashboard/pages/users/show_admins.user_type') }}</th>
+                        <th scope="col">{{ __('dashboard/pages/users/show_admins.image') }}</th>
                         <th scope="col">{{ __('dashboard/pages/users/show_admins.action') }}</th>
+                        
+
                     </tr>
                     </thead>
                     <tbody>

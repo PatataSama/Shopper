@@ -12,4 +12,6 @@ return [
     'delete' => 'Delete',
     'no_admins' => 'There Are No Admins Yet! ',
     'add_admins_here' => 'Add Admins From Here',
+    'image' => 'Image',
+    'action' => 'Action',
 ];

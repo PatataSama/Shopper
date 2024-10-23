@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="block-38 text-center">
                         <div class="block-38-img">
                             <div class="block-38-header">
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="block-38 text-center">
                         <div class="block-38-img">
                             <div class="block-38-header">
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4">
                     <div class="block-38 text-center">
                         <div class="block-38-img">
                             <div class="block-38-header">
@@ -89,7 +89,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-4 m-auto ">
+                    <div class="block-38 text-center">
+                        <div class="block-38-img">
+                            <div class="block-38-header">
+                                <img src="{{ asset('assets/images/person_4.jpg') }}" alt="Image placeholder" class="mb-4">
+                                <h3 class="block-38-heading h4">{{ __('website/pages/about.ahmedothman') }}</h3>
+                                <p class="block-38-subheading">{{ __('website/pages/about.sales_manager') }}</p>
+                            </div>
+                            <div class="block-38-body">
+                                <p>{{ __('website/pages/about.mike_description') }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 m-auto">
                     <div class="block-38 text-center">
                         <div class="block-38-img">
                             <div class="block-38-header">
