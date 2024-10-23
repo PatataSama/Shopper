@@ -20,6 +20,7 @@
                 <div class="col-6 col-md-4 order-3 order-md-3 text-right">
                     <div class="site-top-icons">
                         <ul>
+
                             @auth
                                 @if(auth()->user()->User_Type == 'customer')
                                     <li><a href="{{ route('wishlist.index') }}" class="text-decoration-none text-danger"><span class="icon icon-heart"></span></a></li>
@@ -31,6 +32,7 @@
                                     </li>
                                 @endif
                             @endauth
+
                             <li style="margin-right:-10px">
                                 @auth
                                     <a href="javascript:void(0)" class="text-decoration-none">{{ auth()->user()->name ?? '' }}</a>

@@ -17,7 +17,16 @@ use App\Http\Controllers\dashboard\{DashboardMainController,CategoriesController
 |
 */
 
-Auth::routes();
+
+// routes/web.php
+Route::get('locale/{locale}', function ($locale) {
+    if (!in_array($locale, ['en', 'ar'])) {
+        abort(400);
+    }
+    session(['locale' => $locale]);
+    return redirect()->back();
+})->name('locale.switch');
+
 
 Route::group(
     [
@@ -25,6 +34,7 @@ Route::group(
         'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
     ], function () {
 
+        Auth::routes();
 
         Route::get('/', [App\Http\Controllers\website\MainController::class, 'home'])->name('home');
         Route::get('/shop', [App\Http\Controllers\website\ShopController::class, 'shop'])->name('shop');

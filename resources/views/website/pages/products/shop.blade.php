@@ -49,7 +49,7 @@
                                      onmouseout="this.style.transform='scale(1)';">
                                     <figure class="block-4-image">
                                         <a href="{{ route('shop_single', $product->id) }}">
-                                            <img src="{{ Storage::url($product->image) }}"
+                                            <img src="{{ url($product->image) }}"
                                                  alt="{{ $product->name }}"
                                                  class="img-fluid"
                                                  style="transition: transform 0.3s ease;">
