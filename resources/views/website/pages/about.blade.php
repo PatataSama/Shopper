@@ -93,12 +93,12 @@
                     <div class="block-38 text-center">
                         <div class="block-38-img">
                             <div class="block-38-header">
-                                <img src="{{ asset('assets/images/person_4.jpg') }}" alt="Image placeholder" class="mb-4">
-                                <h3 class="block-38-heading h4">{{ __('website/pages/about.ahmedothman') }}</h3>
-                                <p class="block-38-subheading">{{ __('website/pages/about.sales_manager') }}</p>
+                                <img src="{{ asset('assets/images/person_5.jpg') }}" alt="Image placeholder" class="mb-4">
+                                <h3 class="block-38-heading h4">{{ __('website/pages/about.bahaa') }}</h3>
+                                <p class="block-38-subheading">{{ __('website/pages/about.bahaajob') }}</p>
                             </div>
                             <div class="block-38-body">
-                                <p>{{ __('website/pages/about.mike_description') }}</p>
+                                <p>{{ __('website/pages/about.bahaa_description') }}</p>
                             </div>
                         </div>
                     </div>
